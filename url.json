@@ -1,10 +1,1 @@
-{
-"web0":"http://webapi.iwallet.mobi/",
-"web2":"http://webapi.iwallet1.mobi/",
-"web3":"http://webapi.iwallet2.mobi/",
-"web4":"http://webapi.iwallet3.mobi/",
-"web5":"http://webapi.iwallet5.mobi/",
-"web6":"http://webapi.iwallet6.mobi/",
-"web7":"http://webapi.iwallet7.mobi/",
-"web8":"http://webapi.iwallet8.mobi/"
-}
+["http://webapi.iwallet.mobi/", "http://webapi.iwallet.mobi/","http://webapi.iwallet1.mobi/","http://webapi.iwallet1.mobi/","http://webapi.iwallet1.mobi/"]
