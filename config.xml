@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+
+    <!-->
+
+        curServerType：当前服务器类型，对应Server表中的stype字段
+
+        webLoginUrl：web登录服务器地址
+
+  logServerUrl: 日志服务器
+
+  cdnCtrlUrl: 控制CDN开关的web服务器 （台湾版本ios要求，因为不能审核时不能连接CDN）
+
+    <-->
+
+    <GameOperator
+
+        curServerType="QA"
+
+        webLoginUrl="http://127.0.0.1/api"
+
+  serverStateUrl="http://127.0.0.1/api/v1.1/game/serverlist"
+
+  logServerUrl="http://127.0.0.1/clog/v1.0"
+
+    />
+
+    <!--  
+
+  version:  配置对应版本号(如果没有找到对应版本号，使用默认1.0.0)
+
+        loginMode:      登录模式 Local,NetMarble,Hero,Taiwan,TaiwanIOS,Korea,KoreaIOS
+
+        systemOpen:     系统开关 Local,NetMarble,Hero,Taiwan,TaiwanIOS,Korea,KoreaIOS
+
+  sdkModle  SDK环境切换 (Netmarble:Dev,Real)
+
+        showLog:        是否显示日志(0不显示/1显示)
+
+  showLogStackTrace: 是否显示日志堆栈(0不显示/1显示)
+
+        uwa:            是开启UWA性能分析(0关闭/1开启)
+
+        preLoadAsset:   是否预加载资源(0关闭/1开启)
+
+  preLoadLevelFactor: 预加载等级系数 和内存相乘得到等级 如果配置等级小于此等级资源会预加载
+
+        uiGC:           是否开启客户端UI内释放内存的功能(0关闭/1开启)
+
+  showStats:      是否显示引擎参数信息
+
+  intercept:  是否屏蔽低端机型
+
+  serverhot:  服务器爆满人数
+
+  serverbusy:  服务器繁忙人数
+
+  linehot：  线路爆满人数
+
+        linebusy：  线路繁忙人数
+
+  waitingmax:  服务器排队人数已满，弹出提示
+
+    -->
+
+    <ClientConfList> 
+
+  <ClintConf 
+
+  id="default"
+
+        loginMode="Local"       
+
+        systemOpen="Local"
+
+  sdkModle="Dev"
+
+        showLog="1"
+
+  showLogStackTrace="1"
+
+        uwa="0"
+
+        preLoadAsset="1"
+
+  preLoadLevelFactor="1"
+
+        uiGC="1"
+
+  showStats="1"
+
+  intercept="1"
+
+  sendErrorLog="1"
+
+  serverhot="500"
+
+  serverbusy="200"
+
+  linehot = "100"
+
+  linebusy="30"
+
+  showgrass="1"
+
+  showDebugTool="0"
+
+  waitingmax="300"
+
+  logLevel="10"
+
+  logController="1"
+
+  loadAsync="1"
+
+  reYunDebugModle="0"
+
+  />
+
+    </ClientConfList>
+
+
+
+    <!-- 客户端提示文字 -->
+
+    <ClientTips>
+
+        <Tip id="stataTipe1" strid="sid_statatip1"/>
+
+    </ClientTips>
+
+ <!--服务器组，用于服务器分组显示-->
+
+ <ServerGroup>
+
+  <Group id="1" zoneId="33" recommend="1"/>
+
+ </ServerGroup>
+
+    <!-- 
+
+    <Server 
+
+        id="1"                      id
+
+        ip="192.168.1.208"          ip或者域名http://xxx.xx
+
+        loginPort="4402"            登录服端口
+
+        gamePort="4403"             游戏服端口
+
+        dis="sid_servername1"          显示名称  cdnstr_%lang%.xml中ID对应文字 %lang%取值  gbk:简体中文 kr:韩文 ina:印尼文 tw:繁体中文 jp:日文 en:英文 th:泰文
+
+        stype="QA"                  服务器类型 QA / Online（正式服）                  
+
+        state="0"                   服务器维护状态   0 开启 1维护 
+
+    />      
+
+    -->
+
+    <ServerList>
+
+  <Server id="1" zoneId ="33" lineId ="1" ip="39.106.128.166" loginPort="4402" gamePort="4403" dis="" stype="QA" state="0"/>
+
+<!-- <Server id="1" zoneId ="33" lineId ="1" ip="182.92.231.202" loginPort="4402" gamePort="4403" dis="" stype="QA" state="0"/> -->
+
+    </ServerList>
+</config>
