@@ -1,0 +1,12 @@
+{
+    "array1": [
+        "https://cdn.jsdelivr.net/gh/dogdog689689/iwallte/web_new.json",
+	    "https://mhapi001.aifacekey.com/gh/dogdog689689/iwallte/web_new.json",
+	    "https://mhapi002.aifacekey.com/gh/dogdog689689/iwallte/web_new.json"
+    ],
+    "array2": [
+        "https://mhapi.aifacekey.com",
+	    "https://mhapi001.aifacekey.com",
+	    "https://mhapi002.aifacekey.com"
+    ]
+}
