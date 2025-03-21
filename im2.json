@@ -1,6 +1,8 @@
 {
     "array1": [
-        "https://cdn.jsdelivr.net/gh/dogdog689689/iwallte/im2.json"
+        "https://cdn.jsdelivr.net/gh/dogdog689689/iwallte/im2.json",
+        "https://qcim-1327440491.cos.ap-hongkong.myqcloud.com/im2.json",
+        "https://qcyl.s3.ap-east-1.amazonaws.com/im2.json"        
     ],
     "array2": [
         "qcimapi.aifacekey.com",
