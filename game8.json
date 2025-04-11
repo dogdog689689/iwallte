@@ -1,0 +1,11 @@
+{
+    "array1": [
+        "https://cdn.jsdelivr.net/gh/dogdog689689/iwallte/game8.json",
+        "https://qcim-1327440491.cos.ap-hongkong.myqcloud.com/game8.json",
+        "https://qcyl.s3.ap-east-1.amazonaws.com/game8.json"        
+    ],
+    "array2": [
+        "https://gameapi.aifacekey.com",
+        "https://gameapi.aifacekey.com"
+    ]
+}
